@@ -6,6 +6,6 @@ def cargar_datos(ruta_archivo):
     return datos
 
 if __name__ == "__main__":
-    ruta_archivo = '../data/retail_sales.csv'
+    ruta_archivo = 'https://github.com/hypatiagarcia/retail-sales-analysis/blob/main/data/retail_sales_dataset.csv'
     datos = cargar_datos(ruta_archivo)
     print(datos)
